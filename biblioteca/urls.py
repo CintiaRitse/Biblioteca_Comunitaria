@@ -20,26 +20,26 @@ urlpatterns = [
     path('', include(router.urls)),
 
     path(
-        'realizar-emprestimo/<int:livro_id>/<int:leitor_id>/',
+        'realizar-emprestimo/',
         views.realizar_emprestimo,
         name='realizar_emprestimo'
     ),
 
     path(
-        'devolver-livro/<int:emprestimo_id>/',
+        'devolver-livro/',
         views.devolver_livro,
         name='devolver_livro'
     ),
 
     path(
-    'realizar-reserva/<int:livro_id>/<int:leitor_id>/',
-    views.realizar_reserva,
-    name='realizar_reserva'
-),
+        'realizar-reserva/',
+        views.realizar_reserva,
+        name='realizar_reserva'
+    ),
 
     path(
-    'emprestimos-atrasados/',
-    views.listar_atrasados,
-    name='listar_atrasados'
-),
+        'emprestimos-atrasados/',
+        views.listar_atrasados,
+        name='listar_atrasados'
+    ),
 ]
