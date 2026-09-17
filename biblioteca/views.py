@@ -1,5 +1,4 @@
-from django.shortcuts import render
-from datetime import date
+from datetime import date, timedelta
 from django.shortcuts import get_object_or_404
 from django.http import JsonResponse
 from .models import Livro, Leitor, Emprestimo
@@ -16,7 +15,7 @@ def realizar_emprestimo(request, livro_id, leitor_id):
     emprestimo = Emprestimo.objects.create(
         leitor=leitor,
         livro=livro,
-        data_prevista_devolucao='2026-09-22'
+        data_prevista_devolucao=date.today() + timedelta(days=7)
     )
 
    
