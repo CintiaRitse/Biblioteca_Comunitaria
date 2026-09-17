@@ -30,4 +30,16 @@ urlpatterns = [
         views.devolver_livro,
         name='devolver_livro'
     ),
+
+    path(
+    'realizar-reserva/<int:livro_id>/<int:leitor_id>/',
+    views.realizar_reserva,
+    name='realizar_reserva'
+),
+
+    path(
+    'emprestimos-atrasados/',
+    views.listar_atrasados,
+    name='listar_atrasados'
+),
 ]
