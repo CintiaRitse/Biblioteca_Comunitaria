@@ -1,11 +1,14 @@
 from datetime import date, timedelta
 
-from django.shortcuts import get_object_or_404
+from django.shortcuts import render, get_object_or_404
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
 
 from .models import Livro, Leitor, Emprestimo, Reserva
+
+def home(request):
+    return render(request, 'biblioteca/index.html')
 
 
 @api_view(['POST'])
@@ -31,7 +34,7 @@ def realizar_emprestimo(request):
     emprestimo = Emprestimo.objects.create(
         leitor=leitor,
         livro=livro,
-        data_prevista_devolucao=date.today() + timedelta(days=7)
+        data_prevista_devolucao=date.today() + timedelta(days=14)
     )
 
     livro.quantidade_disponivel -= 1
