@@ -63,7 +63,7 @@ Uma **Plataforma Web Integrada**, composta por uma aplicação SPA responsiva pa
 
 A documentação detalhada deste projeto está organizada na pasta `docs/`:
 
-Consulte o [Documentação](https://docs.google.com/document/d/1MrUB2aqi5TYtPy7JLxFCwTWUy5JrZ4oGbWMR7UhRzMM/edit?usp=drivesdk) para mais detalhes.
+Consulte a [Documentação](https://docs.google.com/document/d/1MrUB2aqi5TYtPy7JLxFCwTWUy5JrZ4oGbWMR7UhRzMM/edit?usp=drivesdk) para mais detalhes.
 
 * [`01-apresentacao-empresa.md`](docs/01-apresentacao-empresa.md) — Missão, visão e posicionamento institucional.
 * [`02-especificacao-problema.md`](docs/02-especificacao-problema.md) — Diagnóstico aprofundado dos processos manuais.
