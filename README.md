@@ -45,7 +45,7 @@ Uma **Plataforma Web Integrada**, composta por uma aplicação SPA responsiva pa
 | **Cíntia Ritse** | Front-end & Banco de Dados | Interface responsiva (SPA) e modelagem relacional de tabelas de catálogo. |
 | **Jucian Oliveira** | Back-end & Banco de Dados | API RESTful, transações ACID de empréstimos e integridade de dados. |
 | **Witoria** | Back-end | Serviços em background, controle de prazos/multas e mensageria. |
-| **Sillas Gabriel** | Engenheiro de IA | Motor de recomendação, busca semântica e clusterização de demanda. |
+| **Sillas Gabriel** | QA | Monitoramento de qualidade, validação e testes. |
 
 > Detalhes sobre competências, justificativas dos papéis e interdependências estão disponíveis em [`docs/04-papeis-e-justificativas.md`](docs/04-papeis-e-justificativas.md).
 
